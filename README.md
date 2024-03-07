@@ -1,10 +1,10 @@
 # Information Retrieval Project- Wikipedia Search Engine
 
 
-A flask app for searching relevent documents from wikipedia dumps.
+The app searches relevent documents from wikipedia dumps and retrives them
 
 
-## Authors
+## Creators:
 * **Liron Miriam Shemen** - (https://github.com/LironShemen)
 * **Sapir Tzaig** - (https://github.com/SapirTzaig)
 
@@ -13,6 +13,12 @@ A flask app for searching relevent documents from wikipedia dumps.
 - Time efficiency for retriving information
 - Max out the mean average precision at 10
 - Retrieve relevent docs from the wikipedia dumps
+
+## Text operations and methods to accomplish our goals
+
+- Using tfidf on both title and text
+- Using page rank algorithm in order to improve retrivel preformance
+- Using stemming on both words in text and title
 
 
 ## Engine Files:
